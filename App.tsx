@@ -37,7 +37,7 @@ const App: React.FC = () => {
 
       {/* 1. HERO SECTION */}
       {/* Added 'bg-gold-gradient' for the top shadow effect requested */}
-      <header className="relative bg-gold-gradient pt-6 pb-12 overflow-hidden">
+      <header id="hero" className="relative bg-gold-gradient pt-6 pb-12 overflow-hidden">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 flex flex-col md:flex-row items-center gap-8 md:gap-12">
           
           {/* Mobile: Image First */}
@@ -84,7 +84,7 @@ const App: React.FC = () => {
       </header>
 
       {/* 2. QUEM SOU EU */}
-      <Section className="bg-white">
+      <Section id="about" className="bg-white">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
              <div className="relative">
@@ -122,7 +122,7 @@ const App: React.FC = () => {
       </Section>
 
       {/* 3. RESULTADOS REAIS (GALERIA) */}
-      <Section className="bg-slate-50">
+      <Section id="results" className="bg-slate-50">
         <div className="text-center mb-10">
           <h2 className="font-serif text-3xl md:text-4xl text-slate-900 mb-3">
             Resultados Reais
@@ -161,7 +161,7 @@ const App: React.FC = () => {
       </Section>
 
       {/* 4. POR QUE CONFIAR */}
-      <Section className="bg-white">
+      <Section id="features" className="bg-white">
         <h2 className="font-serif text-3xl md:text-4xl text-slate-900 mb-10 text-center">
           Por que agendar comigo?
         </h2>
@@ -181,7 +181,7 @@ const App: React.FC = () => {
       </Section>
 
       {/* 5. CTA INTERMEDIÁRIO */}
-      <Section dark className="text-center relative overflow-hidden bg-brand-900">
+      <Section id="cta-intermediate" dark className="text-center relative overflow-hidden bg-brand-900">
         {/* Abstract shapes bg */}
         <div className="absolute top-0 left-0 w-32 h-32 bg-brand-500 opacity-10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-48 h-48 bg-brand-500 opacity-10 rounded-full translate-x-1/3 translate-y-1/3"></div>
@@ -198,7 +198,7 @@ const App: React.FC = () => {
       </Section>
 
       {/* 6. COMO FUNCIONA */}
-      <Section className="bg-slate-50">
+      <Section id="steps" className="bg-slate-50">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl text-slate-900">
             Sua primeira consulta é simples
@@ -223,7 +223,7 @@ const App: React.FC = () => {
       </Section>
 
       {/* 8. CTA FINAL */}
-      <Section className="bg-white pb-24 md:pb-20">
+      <Section id="cta-final" className="bg-white pb-24 md:pb-20">
         <div className="bg-gradient-to-br from-brand-700 to-brand-900 rounded-3xl p-8 md:p-12 text-center text-white shadow-2xl shadow-brand-900/20 relative overflow-hidden">
           <div className="relative z-10">
             <h2 className="font-serif text-3xl md:text-5xl mb-6">
