@@ -6,8 +6,7 @@ import {
   ShieldCheck, 
   FileSearch, 
   UserCheck, 
-  Sparkles,
-  ArrowRight
+  Sparkles
 } from 'lucide-react';
 
 import { EXPERT_INFO, IMAGES, RESULTS_GALLERY, FEATURES, STEPS } from './constants';
